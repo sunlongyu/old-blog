@@ -65,3 +65,24 @@ brew是一个在 macOS 操作系统上用于管理软件包的包管理器。类
 ![image-20230903204416874](/mdimg/image-20230903204416874.png)
 
 #### 2）部署
+在命令行输入以下指令生成public文件：
+
+> hugo --theme=hugo-theme-cleanwhite --baseUrl="https://sunlongyu.github.io/" --buildDrafts
+
+![image-20230904131833281](/Users/sunlongyu/Library/Application Support/typora-user-images/image-20230904131833281.png)
+
+将本地项目public文件推送到仓库中：
+
+> cd public
+>
+> git add .
+>
+> git commit -m "first update"
+>
+> git remote add origin https://github.com/sunlongyu/sunlongyu.github.io.git
+>
+> git push -u origin master
+
+![image-20230904135957565](/Users/sunlongyu/Library/Application Support/typora-user-images/image-20230904135957565.png)
+
+仓库更新后就可以访问之前设置的域名进行访问了
