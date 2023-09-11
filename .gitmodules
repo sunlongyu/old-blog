@@ -1,3 +1,7 @@
 [submodule "sunlongyu.github.io"]
-	path = themes/hugo-theme-cleanwhite
+	path = sunlongyu.github.io
 	url = https://github.com/sunlongyu/sunlongyu.github.io
+
+[submodule "themes/hugo-theme-cleanwhite"]
+    path = themes/hugo-theme-cleanwhite
+    url = https://github.com/sunlongyu/sunlongyu.github.io 
